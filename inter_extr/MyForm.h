@@ -50,6 +50,10 @@ namespace interextr {
 	private: System::Windows::Forms::Label^ label9;
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
+	private: System::Windows::Forms::ToolStripMenuItem^ ïîìîùüToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ çàäàíèåToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ îÏğîãğàììåToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem;
 
 
 
@@ -78,7 +82,7 @@ namespace interextr {
 	protected:
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	private: System::Windows::Forms::ToolStripMenuItem^ ôàéëToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ âûõîäToolStripMenuItem;
+
 
 
 
@@ -118,7 +122,10 @@ namespace interextr {
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->ôàéëToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->âûõîäToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ïîìîùüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->çàäàíèåToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->îÏğîãğàììåToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->cthdbcToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->labelKind = (gcnew System::Windows::Forms::Label());
@@ -153,9 +160,9 @@ namespace interextr {
 			// menuStrip1
 			// 
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 				this->ôàéëToolStripMenuItem,
-					this->cthdbcToolStripMenuItem
+					this->ïîìîùüToolStripMenuItem, this->cthdbcToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -166,17 +173,41 @@ namespace interextr {
 			// 
 			// ôàéëToolStripMenuItem
 			// 
-			this->ôàéëToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->âûõîäToolStripMenuItem });
 			this->ôàéëToolStripMenuItem->Name = L"ôàéëToolStripMenuItem";
 			this->ôàéëToolStripMenuItem->Size = System::Drawing::Size(67, 24);
 			this->ôàéëToolStripMenuItem->Text = L"Âûõîä";
+			this->ôàéëToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ôàéëToolStripMenuItem_Click);
 			// 
-			// âûõîäToolStripMenuItem
+			// ïîìîùüToolStripMenuItem
 			// 
-			this->âûõîäToolStripMenuItem->Name = L"âûõîäToolStripMenuItem";
-			this->âûõîäToolStripMenuItem->Size = System::Drawing::Size(136, 26);
-			this->âûõîäToolStripMenuItem->Text = L"Âûõîä";
-			this->âûõîäToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::âûõîäToolStripMenuItem_Click);
+			this->ïîìîùüToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->çàäàíèåToolStripMenuItem,
+					this->îÏğîãğàììåToolStripMenuItem, this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem
+			});
+			this->ïîìîùüToolStripMenuItem->Name = L"ïîìîùüToolStripMenuItem";
+			this->ïîìîùüToolStripMenuItem->Size = System::Drawing::Size(83, 24);
+			this->ïîìîùüToolStripMenuItem->Text = L"Ïîìîùü";
+			// 
+			// çàäàíèåToolStripMenuItem
+			// 
+			this->çàäàíèåToolStripMenuItem->Name = L"çàäàíèåToolStripMenuItem";
+			this->çàäàíèåToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->çàäàíèåToolStripMenuItem->Text = L"Çàäàíèå";
+			this->çàäàíèåToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::çàäàíèåToolStripMenuItem_Click);
+			// 
+			// îÏğîãğàììåToolStripMenuItem
+			// 
+			this->îÏğîãğàììåToolStripMenuItem->Name = L"îÏğîãğàììåToolStripMenuItem";
+			this->îÏğîãğàììåToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->îÏğîãğàììåToolStripMenuItem->Text = L"Î ïğîãğàììå";
+			this->îÏğîãğàììåToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::îÏğîãğàììåToolStripMenuItem_Click);
+			// 
+			// ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem
+			// 
+			this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Name = L"ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem";
+			this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Text = L"Ğóêîâîäñòâî ïîëüçîâàòåëÿ";
+			this->ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem_Click);
 			// 
 			// cthdbcToolStripMenuItem
 			// 
@@ -201,9 +232,10 @@ namespace interextr {
 			this->labelKind->Location = System::Drawing::Point(177, 291);
 			this->labelKind->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->labelKind->Name = L"labelKind";
-			this->labelKind->Size = System::Drawing::Size(225, 28);
+			this->labelKind->Size = System::Drawing::Size(216, 28);
 			this->labelKind->TabIndex = 14;
-			this->labelKind->Text = L"Ôëàã âèäà ıêñòğåìóìà\?";
+			this->labelKind->Text = L"Ôëàã âèäà ıêñòğåìóìà";
+			this->labelKind->Click += gcnew System::EventHandler(this, &MyForm::labelKind_Click);
 			// 
 			// labelOK
 			// 
@@ -519,7 +551,7 @@ namespace interextr {
 #pragma endregion
 
 	private: System::Void âûõîäToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-		Close();
+		Application::Exit();
 	}
 	private: System::Void numericUpDown1_ValueChanged(System::Object^ sender, System::EventArgs^ e) {}
 
@@ -732,6 +764,20 @@ namespace interextr {
 private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void ôàéëToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	Application::Exit();
+}
+private: System::Void labelKind_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void çàäàíèåToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+
+}
+private: System::Void îÏğîãğàììåToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+
+}
+private: System::Void ğóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+
 }
 };
 }
