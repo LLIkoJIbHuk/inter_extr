@@ -56,13 +56,7 @@ namespace interextr {
 	private: System::Windows::Forms::ToolStripMenuItem^ ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem;
 
 
-
-
-
 	private: System::Windows::Forms::Label^ labelKind;
-
-
-
 
 
 	public:
@@ -82,21 +76,6 @@ namespace interextr {
 	protected:
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	private: System::Windows::Forms::ToolStripMenuItem^ ôàéëToolStripMenuItem;
-
-
-
-
-
-
-
-
-
-
-
-
-	private: System::Windows::Forms::ToolStripMenuItem^ cthdbcToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem;
-
 
 
 	private: System::Windows::Forms::TextBox^ textBox5;
@@ -126,8 +105,6 @@ namespace interextr {
 			this->çàäàíèåToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->îÏðîãðàììåToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->cthdbcToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->labelKind = (gcnew System::Windows::Forms::Label());
 			this->labelOK = (gcnew System::Windows::Forms::Label());
 			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
@@ -159,10 +136,11 @@ namespace interextr {
 			// 
 			// menuStrip1
 			// 
+			this->menuStrip1->BackColor = System::Drawing::Color::Transparent;
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
 				this->ôàéëToolStripMenuItem,
-					this->ïîìîùüToolStripMenuItem, this->cthdbcToolStripMenuItem
+					this->ïîìîùüToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -208,20 +186,6 @@ namespace interextr {
 			this->ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Size = System::Drawing::Size(278, 26);
 			this->ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Text = L"Ðóêîâîäñòâî ïîëüçîâàòåëÿ";
 			this->ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ðóêîâîäñòâîÏîëüçîâàòåëÿToolStripMenuItem_Click);
-			// 
-			// cthdbcToolStripMenuItem
-			// 
-			this->cthdbcToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem });
-			this->cthdbcToolStripMenuItem->Name = L"cthdbcToolStripMenuItem";
-			this->cthdbcToolStripMenuItem->Size = System::Drawing::Size(59, 24);
-			this->cthdbcToolStripMenuItem->Text = L"Ôàéë";
-			// 
-			// ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem
-			// 
-			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem->Name = L"ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem";
-			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem->Size = System::Drawing::Size(320, 26);
-			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem->Text = L"Ââîä èñõîäíûõ äàííûõ èç ôàéëà";
-			this->ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem_Click);
 			// 
 			// labelKind
 			// 
@@ -536,6 +500,8 @@ namespace interextr {
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->MainMenuStrip = this->menuStrip1;
 			this->Margin = System::Windows::Forms::Padding(4);
+			this->MaximumSize = System::Drawing::Size(1178, 528);
+			this->MinimumSize = System::Drawing::Size(1178, 528);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Ìåòîä êâàäðàòè÷íîé èíòåðïîëÿöèè-ýêñòðàïîëÿöèè";
@@ -711,6 +677,7 @@ namespace interextr {
 			textBox3->Text = Convert::ToString(fs[2]);
 			return true;
 		}
+
 
 	private: System::Void ââîäÈñõîäíûõÄàííûõÈçÔàéëàToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (openFileDialog->ShowDialog() != System::Windows::Forms::DialogResult::OK) return;
