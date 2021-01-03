@@ -1,0 +1,4 @@
+double f(double x)
+{
+	return 0.1*pow(x,3) - 2*pow(x,2) + 10*x;
+}

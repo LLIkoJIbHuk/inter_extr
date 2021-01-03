@@ -1,0 +1,1 @@
+"U:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" "z:\MicroWorks\C#\20200509 Alexr Kataev\inter_extr.2019\inter_extr\inter_extr_solver\inter_extr_solver.vcxproj" 
