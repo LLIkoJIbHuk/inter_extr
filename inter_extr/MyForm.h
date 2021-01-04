@@ -199,7 +199,6 @@ namespace interextr {
 			this->labelKind->Size = System::Drawing::Size(216, 28);
 			this->labelKind->TabIndex = 14;
 			this->labelKind->Text = L"Флаг вида экстремума";
-			this->labelKind->Click += gcnew System::EventHandler(this, &MyForm::labelKind_Click);
 			// 
 			// labelOK
 			// 
@@ -255,7 +254,6 @@ namespace interextr {
 			this->label6->Size = System::Drawing::Size(140, 28);
 			this->label6->TabIndex = 11;
 			this->label6->Text = L"Значение F(x):";
-			this->label6->Click += gcnew System::EventHandler(this, &MyForm::label6_Click);
 			// 
 			// textBox4
 			// 
@@ -343,7 +341,6 @@ namespace interextr {
 			this->label3->Size = System::Drawing::Size(266, 28);
 			this->label3->TabIndex = 5;
 			this->label3->Text = L"Точность вычислений (eps):";
-			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// textBox2
 			// 
@@ -527,9 +524,7 @@ namespace interextr {
 		String^ FrameWork = CWindows + "\\Microsoft.NET\\Framework\\";
 		for each (auto Dir in Directory::GetDirectories(FrameWork)) {
 			if (File::Exists(Dir + "\\csc.exe")) {
-
-				//CDir = "c:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\amd64\MSBuild.exe";//(Path::GetFileName(Dir));
-				CDir = "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe";//(Path::GetFileName(Dir));
+				CDir = "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe";
 				break;
 			}
 		}
@@ -554,7 +549,6 @@ namespace interextr {
 
 		String^ path = Path::GetDirectoryName(Application::ExecutablePath);
 
-		//**
 		path = Path::GetDirectoryName(path);
 		path = Path::GetDirectoryName(path);
 		path += "\\inter_extr_solver\\";
@@ -622,11 +616,10 @@ namespace interextr {
 			ExeName = "\"" + ExeName + "\"";
 
 		if (ExeName == "") {
-		   MessageBox::Show ("Ошибка компиляции");//textBox4->Text = "ошибка компиляции"
+		   MessageBox::Show ("Ошибка компиляции");
 			return;
 		}
-		//String^ ExeName = Path::GetDirectoryName(textBoxPath->Text) + "\\debug\\" + Path::GetFileNameWithoutExtension(ProjectName) + ".exe";
-		//Запустить с параметром "куда результат"
+
 		try
 		{
 			P = Process::Start(ExeName, QuatedResultFile);
@@ -635,9 +628,9 @@ namespace interextr {
 		{
 			MessageBox::Show(ex->Message);
 		}
-		//Подождать завершения
+
 		while (!P->HasExited) Application::DoEvents();
-		//Прочитать результат
+
 		if (File::Exists(ResultFile))
 		{
 			array<String^>^ results = File::ReadAllLines(ResultFile);
@@ -691,7 +684,7 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show("Входная строка имела неверный формат"); //MessageBox::Show(ex->Message, "Входная строка имела неверный формат");
+			MessageBox::Show("Входная строка имела неверный формат");
 			textBox1->Text = "-10";
 		}
 	}
@@ -701,7 +694,7 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show("Входная строка имела неверный формат");//MessageBox::Show(ex->Message, "Входная строка имела неверный формат");
+			MessageBox::Show("Входная строка имела неверный формат");
 			textBox2->Text = "0,001";
 	
 		}
@@ -713,30 +706,26 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show( "Входная строка имела неверный формат");//MessageBox::Show(ex->Message, "Входная строка имела неверный формат");
+			MessageBox::Show( "Входная строка имела неверный формат");
 			textBox3->Text = "0,1";
 		}
 	}
-	private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ e) { //textBoxIterations_TextChanged
+	private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ e) {
 		try {
 			System::Double val = System::Convert::ToInt32(textBoxIterations->Text);
 
 		}
 		catch (Exception^ ex)
 		{
-			MessageBox::Show("Входная строка имела неверный формат");//MessageBox::Show(ex->Message, "Входная строка имела неверный формат");
+			MessageBox::Show("Входная строка имела неверный формат");
 			textBoxIterations->Text = "1000";
 		}
 	}
-private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
-}
+
 private: System::Void файлToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	Application::Exit();
 }
-private: System::Void labelKind_Click(System::Object^ sender, System::EventArgs^ e) {
-}
+
 private: System::Void заданиеToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	MessageBox::Show("Разработка программы вычисления экстремумов функции методом квадратичной интерполяции-экстраполяции\n\n"
 
@@ -753,7 +742,7 @@ private: System::Void оПрограммеToolStripMenuItem_Click(System::Object
 		"Группа: ИНБс-2301 \n"
 		"v4\n"
 		"Разработчик - Юрлов Константин\n"
-		"\n\t\t\t2020 год\n");
+		"\n\t\t\t2021 год\n");
 }
 private: System::Void руководствоПользователяToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	MessageBox::Show("В левой части программы пользователю предлагается ввести данные: \n"
