@@ -1,4 +1,4 @@
-#pragma once
+Ôªø#pragma once
 #include <fstream>
 #include <iostream>
 
@@ -50,10 +50,10 @@ namespace interextr {
 	private: System::Windows::Forms::Label^ label9;
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
-	private: System::Windows::Forms::ToolStripMenuItem^ ÔÓÏÓ˘¸ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ Á‡‰‡ÌËÂToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ÓœÓ„‡ÏÏÂToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ –ø–æ–º–æ—â—åToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ –∑–∞–¥–∞–Ω–∏–µToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ –æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ —Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem;
 
 
 	private: System::Windows::Forms::Label^ labelKind;
@@ -75,7 +75,7 @@ namespace interextr {
 
 	protected:
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
-	private: System::Windows::Forms::ToolStripMenuItem^ Ù‡ÈÎToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ —Ñ–∞–π–ªToolStripMenuItem;
 
 
 	private: System::Windows::Forms::TextBox^ textBox5;
@@ -100,11 +100,11 @@ namespace interextr {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->Ù‡ÈÎToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ÔÓÏÓ˘¸ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->Á‡‰‡ÌËÂToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ÓœÓ„‡ÏÏÂToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->—Ñ–∞–π–ªToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->–ø–æ–º–æ—â—åToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->labelKind = (gcnew System::Windows::Forms::Label());
 			this->labelOK = (gcnew System::Windows::Forms::Label());
 			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
@@ -139,8 +139,8 @@ namespace interextr {
 			this->menuStrip1->BackColor = System::Drawing::Color::Transparent;
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
-				this->Ù‡ÈÎToolStripMenuItem,
-					this->ÔÓÏÓ˘¸ToolStripMenuItem
+				this->—Ñ–∞–π–ªToolStripMenuItem,
+					this->–ø–æ–º–æ—â—åToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -149,43 +149,43 @@ namespace interextr {
 			this->menuStrip1->TabIndex = 1;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// Ù‡ÈÎToolStripMenuItem
+			// —Ñ–∞–π–ªToolStripMenuItem
 			// 
-			this->Ù‡ÈÎToolStripMenuItem->Name = L"Ù‡ÈÎToolStripMenuItem";
-			this->Ù‡ÈÎToolStripMenuItem->Size = System::Drawing::Size(67, 24);
-			this->Ù‡ÈÎToolStripMenuItem->Text = L"¬˚ıÓ‰";
-			this->Ù‡ÈÎToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::Ù‡ÈÎToolStripMenuItem_Click);
+			this->—Ñ–∞–π–ªToolStripMenuItem->Name = L"—Ñ–∞–π–ªToolStripMenuItem";
+			this->—Ñ–∞–π–ªToolStripMenuItem->Size = System::Drawing::Size(67, 24);
+			this->—Ñ–∞–π–ªToolStripMenuItem->Text = L"–í—ã—Ö–æ–¥";
+			this->—Ñ–∞–π–ªToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::—Ñ–∞–π–ªToolStripMenuItem_Click);
 			// 
-			// ÔÓÏÓ˘¸ToolStripMenuItem
+			// –ø–æ–º–æ—â—åToolStripMenuItem
 			// 
-			this->ÔÓÏÓ˘¸ToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->Á‡‰‡ÌËÂToolStripMenuItem,
-					this->ÓœÓ„‡ÏÏÂToolStripMenuItem, this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem
+			this->–ø–æ–º–æ—â—åToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem,
+					this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem, this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem
 			});
-			this->ÔÓÏÓ˘¸ToolStripMenuItem->Name = L"ÔÓÏÓ˘¸ToolStripMenuItem";
-			this->ÔÓÏÓ˘¸ToolStripMenuItem->Size = System::Drawing::Size(83, 24);
-			this->ÔÓÏÓ˘¸ToolStripMenuItem->Text = L"œÓÏÓ˘¸";
+			this->–ø–æ–º–æ—â—åToolStripMenuItem->Name = L"–ø–æ–º–æ—â—åToolStripMenuItem";
+			this->–ø–æ–º–æ—â—åToolStripMenuItem->Size = System::Drawing::Size(83, 24);
+			this->–ø–æ–º–æ—â—åToolStripMenuItem->Text = L"–ü–æ–º–æ—â—å";
 			// 
-			// Á‡‰‡ÌËÂToolStripMenuItem
+			// –∑–∞–¥–∞–Ω–∏–µToolStripMenuItem
 			// 
-			this->Á‡‰‡ÌËÂToolStripMenuItem->Name = L"Á‡‰‡ÌËÂToolStripMenuItem";
-			this->Á‡‰‡ÌËÂToolStripMenuItem->Size = System::Drawing::Size(278, 26);
-			this->Á‡‰‡ÌËÂToolStripMenuItem->Text = L"«‡‰‡ÌËÂ";
-			this->Á‡‰‡ÌËÂToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::Á‡‰‡ÌËÂToolStripMenuItem_Click);
+			this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem->Name = L"–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem";
+			this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem->Text = L"–ó–∞–¥–∞–Ω–∏–µ";
+			this->–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::–∑–∞–¥–∞–Ω–∏–µToolStripMenuItem_Click);
 			// 
-			// ÓœÓ„‡ÏÏÂToolStripMenuItem
+			// –æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem
 			// 
-			this->ÓœÓ„‡ÏÏÂToolStripMenuItem->Name = L"ÓœÓ„‡ÏÏÂToolStripMenuItem";
-			this->ÓœÓ„‡ÏÏÂToolStripMenuItem->Size = System::Drawing::Size(278, 26);
-			this->ÓœÓ„‡ÏÏÂToolStripMenuItem->Text = L"Œ ÔÓ„‡ÏÏÂ";
-			this->ÓœÓ„‡ÏÏÂToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ÓœÓ„‡ÏÏÂToolStripMenuItem_Click);
+			this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem->Name = L"–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem";
+			this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem->Text = L"–û –ø—Ä–æ–≥—Ä–∞–º–º–µ";
+			this->–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::–æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem_Click);
 			// 
-			// ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem
+			// —Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem
 			// 
-			this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem->Name = L"ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem";
-			this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem->Size = System::Drawing::Size(278, 26);
-			this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem->Text = L"–ÛÍÓ‚Ó‰ÒÚ‚Ó ÔÓÎ¸ÁÓ‚‡ÚÂÎˇ";
-			this->ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem_Click);
+			this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem->Name = L"—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem";
+			this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem->Text = L"–†—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ –ø–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—è";
+			this->—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::—Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem_Click);
 			// 
 			// labelKind
 			// 
@@ -198,7 +198,7 @@ namespace interextr {
 			this->labelKind->Name = L"labelKind";
 			this->labelKind->Size = System::Drawing::Size(216, 28);
 			this->labelKind->TabIndex = 14;
-			this->labelKind->Text = L"‘Î‡„ ‚Ë‰‡ ˝ÍÒÚÂÏÛÏ‡";
+			this->labelKind->Text = L"–§–ª–∞–≥ –≤–∏–¥–∞ —ç–∫—Å—Ç—Ä–µ–º—É–º–∞";
 			this->labelKind->Click += gcnew System::EventHandler(this, &MyForm::labelKind_Click);
 			// 
 			// labelOK
@@ -212,7 +212,7 @@ namespace interextr {
 			this->labelOK->Name = L"labelOK";
 			this->labelOK->Size = System::Drawing::Size(261, 28);
 			this->labelOK->TabIndex = 14;
-			this->labelOK->Text = L"‘Î‡„ ‰ÓÒÚËÊÂÌËˇ ÚÓ˜ÌÓÒÚË";
+			this->labelOK->Text = L"–§–ª–∞–≥ –¥–æ—Å—Ç–∏–∂–µ–Ω–∏—è —Ç–æ—á–Ω–æ—Å—Ç–∏";
 			// 
 			// textBox7
 			// 
@@ -233,7 +233,7 @@ namespace interextr {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(178, 28);
 			this->label7->TabIndex = 11;
-			this->label7->Text = L"«‡ ÒÍÓÎ¸ÍÓ ¯‡„Ó‚:";
+			this->label7->Text = L"–ó–∞ —Å–∫–æ–ª—å–∫–æ —à–∞–≥–æ–≤:";
 			// 
 			// textBox5
 			// 
@@ -254,7 +254,7 @@ namespace interextr {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(140, 28);
 			this->label6->TabIndex = 11;
-			this->label6->Text = L"«Ì‡˜ÂÌËÂ F(x):";
+			this->label6->Text = L"–ó–Ω–∞—á–µ–Ω–∏–µ F(x):";
 			this->label6->Click += gcnew System::EventHandler(this, &MyForm::label6_Click);
 			// 
 			// textBox4
@@ -276,12 +276,12 @@ namespace interextr {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(121, 28);
 			this->label5->TabIndex = 9;
-			this->label5->Text = L"«Ì‡˜ÂÌËÂ ’:";
+			this->label5->Text = L"–ó–Ω–∞—á–µ–Ω–∏–µ –•:";
 			// 
 			// openFileDialog
 			// 
 			this->openFileDialog->FileName = L"*.txt";
-			this->openFileDialog->Filter = L"¬ÒÂ Ù‡ÈÎ˚|*.*";
+			this->openFileDialog->Filter = L"–í—Å–µ —Ñ–∞–π–ª—ã|*.*";
 			// 
 			// label1
 			// 
@@ -294,7 +294,7 @@ namespace interextr {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(144, 28);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"¬‚Ó‰ ÙÛÌÍˆËË";
+			this->label1->Text = L"–í–≤–æ–¥ —Ñ—É–Ω–∫—Ü–∏–∏";
 			// 
 			// label2
 			// 
@@ -307,7 +307,7 @@ namespace interextr {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(134, 28);
 			this->label2->TabIndex = 3;
-			this->label2->Text = L"»ÌÚÂ‚‡Î (’):";
+			this->label2->Text = L"–ò–Ω—Ç–µ—Ä–≤–∞–ª (–•):";
 			// 
 			// textBoxX1
 			// 
@@ -342,7 +342,7 @@ namespace interextr {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(266, 28);
 			this->label3->TabIndex = 5;
-			this->label3->Text = L"“Ó˜ÌÓÒÚ¸ ‚˚˜ËÒÎÂÌËÈ (eps):";
+			this->label3->Text = L"–¢–æ—á–Ω–æ—Å—Ç—å –≤—ã—á–∏—Å–ª–µ–Ω–∏–π (eps):";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// textBox2
@@ -367,7 +367,7 @@ namespace interextr {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(151, 28);
 			this->label4->TabIndex = 7;
-			this->label4->Text = L"ÿ‡„ ÔÓËÒÍ‡ (h):";
+			this->label4->Text = L"–®–∞–≥ –ø–æ–∏—Å–∫–∞ (h):";
 			// 
 			// textBox3
 			// 
@@ -391,7 +391,7 @@ namespace interextr {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(202, 28);
 			this->label8->TabIndex = 7;
-			this->label8->Text = L"Ã‡ÍÒËÏÛÏ ËÚÂ‡ˆËÈ";
+			this->label8->Text = L"–ú–∞–∫—Å–∏–º—É–º –∏—Ç–µ—Ä–∞—Ü–∏–π";
 			// 
 			// textBoxIterations
 			// 
@@ -417,7 +417,7 @@ namespace interextr {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(129, 48);
 			this->button1->TabIndex = 9;
-			this->button1->Text = L"œÓËÒÍ";
+			this->button1->Text = L"–ü–æ–∏—Å–∫";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -433,7 +433,7 @@ namespace interextr {
 			// comboBoxMinimum
 			// 
 			this->comboBoxMinimum->FormattingEnabled = true;
-			this->comboBoxMinimum->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"»ÒÍ‡Ú¸ ÏËÌËÏÛÏ", L"»ÒÍ‡Ú¸ Ï‡ÍÒËÏÛÏ" });
+			this->comboBoxMinimum->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"–ò—Å–∫–∞—Ç—å –º–∏–Ω–∏–º—É–º", L"–ò—Å–∫–∞—Ç—å –º–∞–∫—Å–∏–º—É–º" });
 			this->comboBoxMinimum->Location = System::Drawing::Point(305, 244);
 			this->comboBoxMinimum->Margin = System::Windows::Forms::Padding(4);
 			this->comboBoxMinimum->Name = L"comboBoxMinimum";
@@ -451,7 +451,7 @@ namespace interextr {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(113, 28);
 			this->label9->TabIndex = 15;
-			this->label9->Text = L"◊ÚÓ ËÒÍ‡Ú¸:";
+			this->label9->Text = L"–ß—Ç–æ –∏—Å–∫–∞—Ç—å:";
 			// 
 			// groupBox1
 			// 
@@ -471,7 +471,7 @@ namespace interextr {
 			this->groupBox1->Size = System::Drawing::Size(472, 387);
 			this->groupBox1->TabIndex = 16;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"–ÂÁÛÎ¸Ú‡Ú˚";
+			this->groupBox1->Text = L"–†–µ–∑—É–ª—å—Ç–∞—Ç—ã";
 			// 
 			// MyForm
 			// 
@@ -504,7 +504,7 @@ namespace interextr {
 			this->MinimumSize = System::Drawing::Size(1178, 528);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"ÃÂÚÓ‰ Í‚‡‰‡ÚË˜ÌÓÈ ËÌÚÂÔÓÎˇˆËË-˝ÍÒÚ‡ÔÓÎˇˆËË";
+			this->Text = L"–ú–µ—Ç–æ–¥ –∫–≤–∞–¥—Ä–∞—Ç–∏—á–Ω–æ–π –∏–Ω—Ç–µ—Ä–ø–æ–ª—è—Ü–∏–∏-—ç–∫—Å—Ç—Ä–∞–ø–æ–ª—è—Ü–∏–∏";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
@@ -516,7 +516,7 @@ namespace interextr {
 		}
 #pragma endregion
 
-	private: System::Void ‚˚ıÓ‰ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void –≤—ã—Ö–æ–¥ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		Application::Exit();
 	}
 	private: System::Void numericUpDown1_ValueChanged(System::Object^ sender, System::EventArgs^ e) {}
@@ -560,7 +560,7 @@ namespace interextr {
 		path += "\\inter_extr_solver\\";
 
 		String^ ProjectName = path + gcnew String("inter_extr_solver.vcxproj");
-		//Õ‡ÈÚË Ë Û‰‡ÎËÚ¸ Ù‡ÈÎ˚ ‚ Í‡Ú‡ÎÓ„‡ı \release Ë \debug 
+		//–ù–∞–π—Ç–∏ –∏ —É–¥–∞–ª–∏—Ç—å —Ñ–∞–π–ª—ã –≤ –∫–∞—Ç–∞–ª–æ–≥–∞—Ö \release –∏ \debug 
 		String^ CleanName = Path::GetFileNameWithoutExtension(ProjectName);
 		String^ ExeFile1 = path + "release\\" + CleanName + ".exe";
 		if (File::Exists(ExeFile1))
@@ -575,19 +575,19 @@ namespace interextr {
 		String^ ExeFile4 = "..\\x64\\debug\\" + CleanName + ".exe";
 		if (File::Exists(ExeFile4))
 			File::Delete(ExeFile4);
-		//ƒÓ·‡‚ËÚ¸ ÔË ÌÂÓ·ıÓ‰ËÏÓÒÚË Í‡‚˚˜ÍË
+		//–î–æ–±–∞–≤–∏—Ç—å –ø—Ä–∏ –Ω–µ–æ–±—Ö–æ–¥–∏–º–æ—Å—Ç–∏ –∫–∞–≤—ã—á–∫–∏
 		if (ProjectName->IndexOf(" ") >= 0)
 			ProjectName = "\"" + ProjectName + "\"";
 
 		String^ ResultFile = Path::GetDirectoryName(Application::ExecutablePath) + "\\result.txt";
-		if (File::Exists(ResultFile)) File::Delete(ResultFile); //”‰‡ÎˇÂÚÒˇ ÂÁÛÎ¸Ú‡Ú
-		//ƒÓ·‡‚ËÚ¸ ÔË ÌÂÓ·ıÓ‰ËÏÓÒÚË Í‡‚˚˜ÍË
+		if (File::Exists(ResultFile)) File::Delete(ResultFile); //–£–¥–∞–ª—è–µ—Ç—Å—è —Ä–µ–∑—É–ª—å—Ç–∞—Ç
+		//–î–æ–±–∞–≤–∏—Ç—å –ø—Ä–∏ –Ω–µ–æ–±—Ö–æ–¥–∏–º–æ—Å—Ç–∏ –∫–∞–≤—ã—á–∫–∏
 		String^ QuatedResultFile = "\"" + ResultFile + "\"";
 
 		String^ FunctionName = path + "Function.h";
 		File::Delete(FunctionName);
 		File::WriteAllLines(FunctionName, textBox6->Lines, System::Text::Encoding::Default);
-		//«‡ÔËÒ‡Ú¸ Ô‡‡ÏÂÚ˚ ‚ Parametrs.h
+		//–ó–∞–ø–∏—Å–∞—Ç—å –ø–∞—Ä–∞–º–µ—Ç—Ä—ã –≤ Parametrs.h
 		String^ ParametersName = path + "Parameters.h";
 		File::Delete(ParametersName);
 		StreamWriter^ F = gcnew StreamWriter(ParametersName,false,System::Text::Encoding::Default);
@@ -603,7 +603,7 @@ namespace interextr {
 		F->WriteLine("char filename[] = \"" + SlashedResultFile + "\";");
 
 		F->Close();
-		//—ÍÓÏÔËÎËÓ‚‡Ú¸
+		//–°–∫–æ–º–ø–∏–ª–∏—Ä–æ–≤–∞—Ç—å
 		String^ CompilerName = "c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe";CWindows + "\\Microsoft.NET\\Framework\\" + CDir + "\\msbuild.exe";
 
 		//!!
@@ -611,7 +611,7 @@ namespace interextr {
 		//!!
 		Process^ P = Process::Start(CompilerName, ProjectName);
 		while (!P->HasExited) Application::DoEvents();
-		//”‰‡˜ÌÓ ÎË?
+		//–£–¥–∞—á–Ω–æ –ª–∏?
 		String^ ExeName = "";
 		if (File::Exists(ExeFile1))	ExeName = ExeFile1;
 		if (File::Exists(ExeFile2))	ExeName = ExeFile2;
@@ -622,11 +622,11 @@ namespace interextr {
 			ExeName = "\"" + ExeName + "\"";
 
 		if (ExeName == "") {
-		   MessageBox::Show ("Œ¯Ë·Í‡ ÍÓÏÔËÎˇˆËË");//textBox4->Text = "Ó¯Ë·Í‡ ÍÓÏÔËÎˇˆËË"
+		   MessageBox::Show ("–û—à–∏–±–∫–∞ –∫–æ–º–ø–∏–ª—è—Ü–∏–∏");//textBox4->Text = "–æ—à–∏–±–∫–∞ –∫–æ–º–ø–∏–ª—è—Ü–∏–∏"
 			return;
 		}
 		//String^ ExeName = Path::GetDirectoryName(textBoxPath->Text) + "\\debug\\" + Path::GetFileNameWithoutExtension(ProjectName) + ".exe";
-		//«‡ÔÛÒÚËÚ¸ Ò Ô‡‡ÏÂÚÓÏ "ÍÛ‰‡ ÂÁÛÎ¸Ú‡Ú"
+		//–ó–∞–ø—É—Å—Ç–∏—Ç—å —Å –ø–∞—Ä–∞–º–µ—Ç—Ä–æ–º "–∫—É–¥–∞ —Ä–µ–∑—É–ª—å—Ç–∞—Ç"
 		try
 		{
 			P = Process::Start(ExeName, QuatedResultFile);
@@ -635,31 +635,31 @@ namespace interextr {
 		{
 			MessageBox::Show(ex->Message);
 		}
-		//œÓ‰ÓÊ‰‡Ú¸ Á‡‚Â¯ÂÌËˇ
+		//–ü–æ–¥–æ–∂–¥–∞—Ç—å –∑–∞–≤–µ—Ä—à–µ–Ω–∏—è
 		while (!P->HasExited) Application::DoEvents();
-		//œÓ˜ËÚ‡Ú¸ ÂÁÛÎ¸Ú‡Ú
+		//–ü—Ä–æ—á–∏—Ç–∞—Ç—å —Ä–µ–∑—É–ª—å—Ç–∞—Ç
 		if (File::Exists(ResultFile))
 		{
 			array<String^>^ results = File::ReadAllLines(ResultFile);
 			textBox4->Text = results[0];
 			textBox5->Text = results[1];
 			textBox7->Text = results[2];
-			labelOK->Text = (results[3] == "OK" ? "“Ó˜ÌÓÒÚ¸ ‰ÓÒÚË„ÌÛÚ‡" : "“Ó˜ÌÓÒÚ¸ ÌÂ ‰ÓÒÚË„ÌÛÚ‡");
+			labelOK->Text = (results[3] == "OK" ? "–¢–æ—á–Ω–æ—Å—Ç—å –¥–æ—Å—Ç–∏–≥–Ω—É—Ç–∞" : "–¢–æ—á–Ω–æ—Å—Ç—å –Ω–µ –¥–æ—Å—Ç–∏–≥–Ω—É—Ç–∞");
 
 			if (comboBoxMinimum->SelectedIndex == 0)
 				if (results[4] == "OK")
-					labelKind->Text = "Õ‡È‰ÂÌ ÏËÌËÏÛÏ";
+					labelKind->Text = "–ù–∞–π–¥–µ–Ω –º–∏–Ω–∏–º—É–º";
 				else
-					labelKind->Text = "ÃËÌËÏÛÏ ÌÂ Ì‡È‰ÂÌ, ·ÎËÊ‡È¯ËÈ ˝ÍÒÚÂÏÛÏ  - Ï‡ÍÒËÏÛÏ!";
+					labelKind->Text = "–ú–∏–Ω–∏–º—É–º –Ω–µ –Ω–∞–π–¥–µ–Ω, –±–ª–∏–∂–∞–π—à–∏–π —ç–∫—Å—Ç—Ä–µ–º—É–º  - –º–∞–∫—Å–∏–º—É–º!";
 			else
 				if (results[4] == "OK")
-						labelKind->Text = "Õ‡È‰ÂÌ Ï‡ÍÒËÏÛÏ";
+						labelKind->Text = "–ù–∞–π–¥–µ–Ω –º–∞–∫—Å–∏–º—É–º";
 				else
-					labelKind->Text = "Ã‡ÍÒËÏÛÏ ÌÂ Ì‡È‰ÂÌ, ·ÎËÊ‡È¯ËÈ ˝ÍÒÚÂÏÛÏ  - ÏËÌËÏÛÏ!";
+					labelKind->Text = "–ú–∞–∫—Å–∏–º—É–º –Ω–µ –Ω–∞–π–¥–µ–Ω, –±–ª–∏–∂–∞–π—à–∏–π —ç–∫—Å—Ç—Ä–µ–º—É–º  - –º–∏–Ω–∏–º—É–º!";
 		}
 		else
 		{
-			textBox4->Text = "◊ÚÓ ÚÓ ÔÓ¯ÎÓ ÌÂ Ú‡Í";
+			textBox4->Text = "–ß—Ç–æ —Ç–æ –ø–æ—à–ª–æ –Ω–µ —Ç–∞–∫";
 			return;
 		}
 		return;
@@ -679,7 +679,7 @@ namespace interextr {
 		}
 
 
-	private: System::Void ‚‚Ó‰»ÒıÓ‰Ì˚ıƒ‡ÌÌ˚ı»Á‘‡ÈÎ‡ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void –≤–≤–æ–¥–ò—Å—Ö–æ–¥–Ω—ã—Ö–î–∞–Ω–Ω—ã—Ö–ò–∑–§–∞–π–ª–∞ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (openFileDialog->ShowDialog() != System::Windows::Forms::DialogResult::OK) return;
 		readFromFile(openFileDialog->FileName);
 	}
@@ -691,7 +691,7 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show("¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú"); //MessageBox::Show(ex->Message, "¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");
+			MessageBox::Show("–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç"); //MessageBox::Show(ex->Message, "–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");
 			textBox1->Text = "-10";
 		}
 	}
@@ -701,7 +701,7 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show("¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");//MessageBox::Show(ex->Message, "¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");
+			MessageBox::Show("–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");//MessageBox::Show(ex->Message, "–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");
 			textBox2->Text = "0,001";
 	
 		}
@@ -713,7 +713,7 @@ namespace interextr {
 		}
 		catch (Exception ^ ex)
 		{
-			MessageBox::Show( "¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");//MessageBox::Show(ex->Message, "¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");
+			MessageBox::Show( "–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");//MessageBox::Show(ex->Message, "–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");
 			textBox3->Text = "0,1";
 		}
 	}
@@ -724,7 +724,7 @@ namespace interextr {
 		}
 		catch (Exception^ ex)
 		{
-			MessageBox::Show("¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");//MessageBox::Show(ex->Message, "¬ıÓ‰Ì‡ˇ ÒÚÓÍ‡ ËÏÂÎ‡ ÌÂ‚ÂÌ˚È ÙÓÏ‡Ú");
+			MessageBox::Show("–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");//MessageBox::Show(ex->Message, "–í—Ö–æ–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ –∏–º–µ–ª–∞ –Ω–µ–≤–µ—Ä–Ω—ã–π —Ñ–æ—Ä–º–∞—Ç");
 			textBoxIterations->Text = "1000";
 		}
 	}
@@ -732,19 +732,44 @@ private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e)
 }
 private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void Ù‡ÈÎToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void —Ñ–∞–π–ªToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	Application::Exit();
 }
 private: System::Void labelKind_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void Á‡‰‡ÌËÂToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void –∑–∞–¥–∞–Ω–∏–µToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	MessageBox::Show("–†–∞–∑—Ä–∞–±–æ—Ç–∫–∞ –ø—Ä–æ–≥—Ä–∞–º–º—ã –≤—ã—á–∏—Å–ª–µ–Ω–∏—è —ç–∫—Å—Ç—Ä–µ–º—É–º–æ–≤ —Ñ—É–Ω–∫—Ü–∏–∏ –º–µ—Ç–æ–¥–æ–º –∫–≤–∞–¥—Ä–∞—Ç–∏—á–Ω–æ–π –∏–Ω—Ç–µ—Ä–ø–æ–ª—è—Ü–∏–∏-—ç–∫—Å—Ç—Ä–∞–ø–æ–ª—è—Ü–∏–∏\n\n"
 
+		"1.1 –°—Ä–µ–¥–∞ –ø—Ä–æ–≥—Ä–∞–º–º–∏—Ä–æ–≤–∞–Ω–∏—è Visual C++.\n"
+		"1.2. –ü—Ä–æ–¥–µ–ª–∞—Ç—å —Å—Ä–∞–≤–Ω–∏—Ç–µ–ª—å–Ω—ã–π –∞–Ω–∞–ª–∏–∑ —Ä–∞–∑–ª–∏—á–Ω—ã—Ö –º–µ—Ç–æ–¥–æ–≤ –æ–¥–Ω–æ–º–µ—Ä–Ω–æ–≥–æ –ø–æ–∏—Å–∫–∞.\n"
+		"1.3. –ù–∞–π—Ç–∏ —ç–∫—Å—Ç—Ä–µ–º—É–º —Ñ—É–Ω–∫—Ü–∏–∏ F(x)- —Ñ—É–Ω–∫—Ü–∏—é –æ—Ñ–æ—Ä–º–∏—Ç—å –≤ –≤–∏–¥–µ –æ—Ç–¥–µ–ª—å–Ω–æ–π –ø–æ–¥–ø—Ä–æ–≥—Ä–∞–º–º—ã.\n"
+		"1.4. –ü—Ä–µ–¥—É—Å–º–æ—Ç—Ä–µ—Ç—å –≤–≤–æ–¥ —Ü–µ–ª–µ–≤–æ–π —Ñ—É–Ω–∫—Ü–∏–∏, —à–∞–≥–∞, –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ —à–∞–≥–æ–≤, –Ω–∞—á–∞–ª—å–Ω–æ–≥–æ –∑–Ω–∞—á–µ–Ω–∏—è x1=, –ø–æ–≥—Ä–µ—à–Ω–æ—Å—Ç–∏ —Ä–µ–∑—É–ª—å—Ç–∞—Ç–∞ (—Ü–µ–ª–µ–≤—É—é —Ñ—É–Ω–∫—Ü–∏—é –∏ –ø–∞—Ä–∞–º–µ—Ç—Ä—ã –∑–∞–ø–∏—Å–∞—Ç—å –≤ —Ä–∞–∑–ª–∏—á–Ω—ã–µ —Ñ–∞–π–ª—ã).\n"
+	);
 }
-private: System::Void ÓœÓ„‡ÏÏÂToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-
+private: System::Void –æ–ü—Ä–æ–≥—Ä–∞–º–º–µToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	MessageBox::Show("–ü—Ä–æ–≥—Ä–∞–º–º–∞ '–†–∞–∑—Ä–∞–±–æ—Ç–∫–∞ –ø—Ä–æ–≥—Ä–∞–º–º—ã –≤—ã—á–∏—Å–ª–µ–Ω–∏—è —ç–∫—Å—Ç—Ä–µ–º—É–º–æ–≤ —Ñ—É–Ω–∫—Ü–∏–∏ –º–µ—Ç–æ–¥–æ–º –∫–≤–∞–¥—Ä–∞—Ç–∏—á–Ω–æ–π –∏–Ω—Ç–µ—Ä–ø–æ–ª—è—Ü–∏–∏-—ç–∫—Å—Ç—Ä–∞–ø–æ–ª—è—Ü–∏–∏'\n"
+		"–î–∏—Å—Ü–∏–ø–ª–∏–Ω–∞: –Ø–∑—ã–∫–∏ –ø—Ä–æ–≥—Ä–∞–º–º–∏—Ä–æ–≤–∞–Ω–∏—è\n"
+		"–í–∞—Ä–∏–∞–Ω—Ç 24\n"
+		"–ì—Ä—É–ø–ø–∞: –ò–ù–ë—Å-2301 \n"
+		"v4\n"
+		"–†–∞–∑—Ä–∞–±–æ—Ç—á–∏–∫ - –Æ—Ä–ª–æ–≤ –ö–æ–Ω—Å—Ç–∞–Ω—Ç–∏–Ω\n"
+		"\n\t\t\t2020 –≥–æ–¥\n");
 }
-private: System::Void ÛÍÓ‚Ó‰ÒÚ‚ÓœÓÎ¸ÁÓ‚‡ÚÂÎˇToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-
+private: System::Void —Ä—É–∫–æ–≤–æ–¥—Å—Ç–≤–æ–ü–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—èToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	MessageBox::Show("–í –ª–µ–≤–æ–π —á–∞—Å—Ç–∏ –ø—Ä–æ–≥—Ä–∞–º–º—ã –ø–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—é –ø—Ä–µ–¥–ª–∞–≥–∞–µ—Ç—Å—è –≤–≤–µ—Å—Ç–∏ –¥–∞–Ω–Ω—ã–µ: \n"
+		"\t‚Ä¢ —Ñ—É–Ω–∫—Ü–∏—é –≤ –≤–∏–¥–µ –ø–æ–¥–ø—Ä–æ–≥—Ä–∞–º–º—ã\n"
+		"\t‚Ä¢ –≤—ã–±—Ä–∞—Ç—å –ø–æ–∏—Å–∫ –º–∞–∫—Å–∏–º—É–º–∞/–º–∏–Ω–∏–º—É–º–∞\n"
+		"\t‚Ä¢ –≤–≤–µ—Å—Ç–∏ –∏–Ω—Ç–µ—Ä–≤–∞–ª (–•)\n"
+		"\t‚Ä¢ –≤–≤–µ—Å—Ç–∏ —Ç–æ—á–Ω–æ—Å—Ç—å –≤—ã—á–∏—Å–ª–µ–Ω–∏–π (eps)\n"
+		"\t‚Ä¢ –≤–≤–µ—Å—Ç–∏ —à–∞–≥ –ø–æ–∏—Å–∫–∞ (h)\n"
+		"\t‚Ä¢ –≤–≤–µ—Å—Ç–∏ –º–∞–∫—Å–∏–º—É–º –∏—Ç–µ—Ä–∞—Ü–∏–π\n"
+		"–í –ø—Ä–∞–≤–æ–π —á–∞—Å—Ç–∏ –ø—Ä–æ–≥—Ä–∞–º–º—ã –ø–æ–ª—å–∑–æ–≤–∞—Ç–µ–ª—å –º–æ–∂–µ—Ç —É–≤–∏–¥–µ—Ç—å —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã –ø–æ–∏—Å–∫–∞: \n"
+		"\t‚Ä¢ –∑–Ω–∞—á–µ–Ω–∏–µ –•\n"
+		"\t‚Ä¢ –∑–Ω–∞—á–µ–Ω–∏–µ F(x)\n"
+		"\t‚Ä¢ –∑–∞ —Å–∫–æ–ª—å–∫–æ —à–∞–≥–æ–≤ –±—ã–ª –≤—ã–ø–æ–ª–Ω–µ–Ω –ø–æ–∏—Å–∫\n"
+		"–ê —Ç–∞–∫ –∂–µ 2 —Ñ–ª–∞–≥–∞: \n"
+		"\t‚Ä¢ —Ñ–ª–∞–≥ –¥–æ—Å—Ç–∏–∂–µ–Ω–∏—è —Ç–æ—á–Ω–æ—Å—Ç–∏\n"
+		"\t‚Ä¢ —Ñ–ª–∞–≥ –≤–∏–¥–∞ —ç–∫—Å—Ç—Ä–µ–º—É–º–∞\n");
 }
 };
 }
