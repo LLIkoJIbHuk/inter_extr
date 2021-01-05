@@ -137,6 +137,8 @@ namespace interextr {
 			// menuStrip1
 			// 
 			this->menuStrip1->BackColor = System::Drawing::Color::Transparent;
+			this->menuStrip1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
 				this->файлToolStripMenuItem,
@@ -145,14 +147,14 @@ namespace interextr {
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Padding = System::Windows::Forms::Padding(5, 2, 0, 2);
-			this->menuStrip1->Size = System::Drawing::Size(1160, 28);
+			this->menuStrip1->Size = System::Drawing::Size(1160, 33);
 			this->menuStrip1->TabIndex = 1;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
 			// файлToolStripMenuItem
 			// 
 			this->файлToolStripMenuItem->Name = L"файлToolStripMenuItem";
-			this->файлToolStripMenuItem->Size = System::Drawing::Size(67, 24);
+			this->файлToolStripMenuItem->Size = System::Drawing::Size(80, 29);
 			this->файлToolStripMenuItem->Text = L"Выход";
 			this->файлToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::файлToolStripMenuItem_Click);
 			// 
@@ -163,27 +165,27 @@ namespace interextr {
 					this->оПрограммеToolStripMenuItem, this->руководствоПользователяToolStripMenuItem
 			});
 			this->помощьToolStripMenuItem->Name = L"помощьToolStripMenuItem";
-			this->помощьToolStripMenuItem->Size = System::Drawing::Size(83, 24);
+			this->помощьToolStripMenuItem->Size = System::Drawing::Size(101, 29);
 			this->помощьToolStripMenuItem->Text = L"Помощь";
 			// 
 			// заданиеToolStripMenuItem
 			// 
 			this->заданиеToolStripMenuItem->Name = L"заданиеToolStripMenuItem";
-			this->заданиеToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->заданиеToolStripMenuItem->Size = System::Drawing::Size(331, 30);
 			this->заданиеToolStripMenuItem->Text = L"Задание";
 			this->заданиеToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::заданиеToolStripMenuItem_Click);
 			// 
 			// оПрограммеToolStripMenuItem
 			// 
 			this->оПрограммеToolStripMenuItem->Name = L"оПрограммеToolStripMenuItem";
-			this->оПрограммеToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->оПрограммеToolStripMenuItem->Size = System::Drawing::Size(331, 30);
 			this->оПрограммеToolStripMenuItem->Text = L"О программе";
 			this->оПрограммеToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::оПрограммеToolStripMenuItem_Click);
 			// 
 			// руководствоПользователяToolStripMenuItem
 			// 
 			this->руководствоПользователяToolStripMenuItem->Name = L"руководствоПользователяToolStripMenuItem";
-			this->руководствоПользователяToolStripMenuItem->Size = System::Drawing::Size(278, 26);
+			this->руководствоПользователяToolStripMenuItem->Size = System::Drawing::Size(331, 30);
 			this->руководствоПользователяToolStripMenuItem->Text = L"Руководство пользователя";
 			this->руководствоПользователяToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::руководствоПользователяToolStripMenuItem_Click);
 			// 
@@ -420,6 +422,8 @@ namespace interextr {
 			// 
 			// textBox6
 			// 
+			this->textBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->textBox6->Location = System::Drawing::Point(27, 78);
 			this->textBox6->Margin = System::Windows::Forms::Padding(4);
 			this->textBox6->Multiline = true;
@@ -501,7 +505,7 @@ namespace interextr {
 			this->MinimumSize = System::Drawing::Size(1178, 528);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Метод квадратичной интерполяции-экстраполяции";
+			this->Text = L"Вычисление экстремумов функции метом квадратичной интерполяции-экстраполяции";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
