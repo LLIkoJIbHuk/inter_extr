@@ -479,7 +479,6 @@ namespace interextr {
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::Control;
-			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1160, 481);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->label9);
@@ -558,7 +557,7 @@ namespace interextr {
 		path += "\\inter_extr_solver\\";
 
 		String^ ProjectName = path + gcnew String("inter_extr_solver.vcxproj");
-		//Найти и удалить файлы в каталогах \release и \debug 
+
 		String^ CleanName = Path::GetFileNameWithoutExtension(ProjectName);
 		String^ ExeFile1 = path + "release\\" + CleanName + ".exe";
 		if (File::Exists(ExeFile1))
@@ -566,7 +565,7 @@ namespace interextr {
 		String^ ExeFile2 = path + "debug\\" + CleanName + ".exe";
 		if (File::Exists(ExeFile2))
 			File::Delete(ExeFile2);
-		//?x64
+
 		String^ ExeFile3 = "..\\x64\\release\\" + CleanName + ".exe";
 		if (File::Exists(ExeFile3))
 			File::Delete(ExeFile3);
@@ -609,7 +608,7 @@ namespace interextr {
 		//!!
 		Process^ P = Process::Start(CompilerName, ProjectName);
 		while (!P->HasExited) Application::DoEvents();
-		//Удачно ли?
+
 		String^ ExeName = "";
 		if (File::Exists(ExeFile1))	ExeName = ExeFile1;
 		if (File::Exists(ExeFile2))	ExeName = ExeFile2;
